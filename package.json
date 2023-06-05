@@ -1,5 +1,6 @@
 {
   "name": "next-firebase-blog",
+  
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,8 +12,15 @@
   "dependencies": {
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
+    "firebase": "^9.22.0",
+    "lodash.debounce": "^4.0.8",
     "next": "13.4.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7"
   }
 }
